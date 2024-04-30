@@ -6,8 +6,31 @@
     font-style: normal;
 }
 
+.page {
+    height: 100vh;
+    width: 100vw;
+}
+
 header {
     background-image: url("../images/header.png");
-    height: 1024px;
-    width: 1456px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+    font-size: 6vw;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20%;
+    padding-left: 10%;
+    color: aliceblue;
+    stroke: black;
+}
+
+#subtitle {
+    margin: 0;
+    padding-left: 60%;
+    color: aliceblue;
+    font-size: 2vw;
 }
