@@ -27,14 +27,26 @@
     background-color: aliceblue;
     margin-left: 1vw;
     margin-right: 1vw;
-    height: 100%;
-    width: 15%;
+    border-radius: 30px;
+    z-index: 100;
 }
 
-#ptf {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
+.black_div {
+    height: 1%;
+    background-color: #02172E;
+}
+
+.project_description {
+    color: #02172E;
+    margin: 5%;
+    text-align: justify;
+}
+
+#grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+
 }
 
 
@@ -76,6 +88,7 @@ h2 {
 
 h3 {
     color: #02172E;
+    text-align: center;
 }
 
 
