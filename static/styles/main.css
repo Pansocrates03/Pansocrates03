@@ -42,8 +42,12 @@
     text-align: justify;
 }
 
+.projects_footer{
+    text-align: center;
+}
+
+
 #grid {
-    height: 100%;
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
 
@@ -96,6 +100,7 @@ h3 {
 footer {
     height: 10vh;
     background-color: #02172E;
+    z-index: 100;
 }
 
 #logos {
